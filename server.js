@@ -4,7 +4,7 @@ const port = 8080;
 
 const requestHandler = (request, response) => {
   console.log(request.url);
-  response.end(`<textarea>
+  response.end(`
    ____                      _____ _     _  __ _   
   / __ \\                    / ____| |   (_)/ _| |  
  | |  | |_ __   ___ _ __   | (___ | |__  _| |_| |_ 
@@ -13,7 +13,7 @@ const requestHandler = (request, response) => {
   \\____/| .__/ \\___|_| |_| |_____/|_| |_|_|_|  \\__|
         | |                                        
         |_|                                        
-  </textarea>`);
+ `);
 };
 
 const server = http.createServer(requestHandler);
