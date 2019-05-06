@@ -1,0 +1,24 @@
+{
+  "name": "say-my-name",
+  "version": "0.0.1",
+  "description": "Sample Node.js Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tanevski3/openshift-say-my-name.git"
+  },
+  "keywords": [
+    "node",
+    "openshift"
+  ],
+  "author": "Marjan Tanevski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tanevski3/openshift-say-my-name/issues"
+  },
+  "homepage": "https://github.com/Tanevski3/openshift-say-my-name#readme"
+}
